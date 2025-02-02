@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&display=swap");
+
+/* Universal Declaration */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: "Lexend Giga", serif;
+  text-transform: capitalize;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+}
+
+.main-cont {
+  width: 90%;
+  display: flex;
+  gap: 50px;
+  flex-direction: column;
+  margin: 0 auto;
+  background-color: white;
+  align-items: center;
+  height: 1000px;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 50px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 310px;
+  /* background-color: pink; */
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+}
+
+input {
+  width: 300px;
+  height: 40px;
+  padding-left: 12.5px;
+  border-left: transparent;
+  border-top: transparent;
+  border-right: transparent;
+  &:focus {
+    outline: none;
+  }
+}
+
+button {
+  width: 100px;
+  height: 40px;
+  &:hover {
+    cursor: pointer;
+  }
+}
